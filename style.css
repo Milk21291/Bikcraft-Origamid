@@ -1,0 +1,140 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    background: #f7f7f7;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+#flexTituloImg {
+    display: flex;
+    justify-content: center;
+}
+
+
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background: #e21;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+  }
+
+#sobreNos {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+#containerInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin-top: 80px;
+}
+
+#gridContainer {
+    background: #fff;
+    padding: 49.1px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: end;
+}
+
+#imagemBikcraft {
+    max-width: 100%;
+    border-radius: 4px;
+    grid-column: 2 / 3;
+}
+
+#tituloBikecraft {
+    font-size: 35px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+#descricaoBike {
+    font-size: 19.5px;
+    line-height: 1.3;
+    text-align: right;
+    width: 100%;
+    grid-row: 2 / 3; 
+    grid-column: 1 / 2;
+}
+
+#verMaisButton {
+    background: #e21;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+#subtitulo {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+}
+
+
+#containerVantagens {
+    background-color: #fff;
+    padding: 40px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.itemVantagens {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.colum {
+    grid-column: 2;
+}
+
+.rodape {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
